@@ -19,3 +19,6 @@ const el = document.querySelector( '.counter' )
 const el2 =document.querySelector( '.counter2' )
 IO.observe( el )
 IO.observe( el2 )
+
+
+
