@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/logo-full-no-bg.png" type="image/icon">
   <title>WebWandler</title>
   <link rel="stylesheet" href="style.css">
 	<script src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
@@ -18,9 +19,9 @@
           <h3 class = "logo-text"><span class="purple">Web</span>Wandler</h3>
         </div>
 
-        <input id="menu-toggle" type="checkbox" />
+        <input id="menu-toggle" type="checkbox" >
         <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
+        <span class='menu-button'></span>
       </label>
         <ul class="menu">
           <li><a href="index.html">home</a></li>
@@ -28,8 +29,9 @@
           <li><a href="cmo.html">cmo</a></li>
           <li><a href="cpo.html">cpo</a></li>
           <li><a href="cto.html">cto</a></li>
+          <li><a href="https://tally.so/r/3NMp6p">novostock</a></li>
         </ul>
-        <ul class="nav-list-container">
+        <div class="nav-list-container">
           <ul class="nav-list">
             <li class="nav-item">
               <a href="index.html" class="nav-link">home</a>
@@ -49,9 +51,9 @@
 
           <div class="btn-nav-container">
             <a href="ceo.html#contact" class="btn contact-btn">Kontakt</a>
-            <a href="#team" class="btn waitlist-btn ">Unser Team</a>
+            <a href="#" class="btn waitlist-btn ">Novostock</a>
           </div>
-        </ul>
+        </div>
 
 
       </nav>
@@ -79,27 +81,6 @@
 
     </div>
   </section>
-  <section class="info-bar" style="display: none;">
-    <div class="container info-bar-section-top">
-      <div class="info-bar-container">
-        <div class="info-bar-item">
-          <i class="fa-solid fa-pen-nib info-bar-icon"></i>
-          <h3 class="info-bar-title">Besser merken</h3>
-          <p class="info-bar-text">BeeBrain hilft dir, die wichtigsten Infos aus deinen Handouts schnell zu erfassen. So behältst du alles im Kopf</p>
-        </div>
-        <div class="info-bar-item">
-          <i class="fa-solid fa-check info-bar-icon "></i>
-          <h3 class="info-bar-title">Besser Tests schreiben</h3>
-          <p class="info-bar-text">Erstelle Übungsklausuren aus deinen Materialien. So bist du optimal auf Prüfungen vorbereitet.</p>
-        </div>
-        <div class="info-bar-item ">
-          <i class="fa-solid fa-gear info-bar-icon"></i>
-          <h3 class="info-bar-title">Besser lernen</h3>
-          <p class="info-bar-text">Lerne smarter mit BeeBrain. Bereite dich gezielt auf Prüfungen vor und verbessere deine Noten.</p>
-        </div>
-      </div>
-    </div>
-  </section>
   <section class="about-us">
     <div class="container about-us-container">
       <div class="about-us-title-container section-title-container">
@@ -117,7 +98,7 @@
               Based in: <span class="tracker">Berlin</span>
             </p>
             <p class="about-us-tracker">
-              Zufriedenheit: <span class="tracker counter2">100</span><span class="tracker">%</span>
+              Qualität: <span class="tracker counter2">100</span><span class="tracker">%</span>
             </p>
         </div>
         <div class="about-us-img-container">
@@ -139,23 +120,23 @@
           <div class="service-card">
             <div class="card-title">
               <div class="service-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" width="40" height="40" fill="#fff"><path d="M36.484 1.25H3.516A3.52 3.52 0 0 0 0 4.766v23.437a3.52 3.52 0 0 0 3.516 3.516h10.171l-1.562 4.687H8.281a1.172 1.172 0 1 0 0 2.344h23.438a1.172 1.172 0 1 0 0-2.344h-3.843l-1.562-4.687h10.171A3.52 3.52 0 0 0 40 28.203V4.766a3.52 3.52 0 0 0-3.516-3.516zm-21.89 35.156l1.563-4.687h7.686l1.563 4.687H14.595zm23.062-8.203c0 .646-.526 1.172-1.172 1.172H3.516c-.646 0-1.172-.526-1.172-1.172v-1.172h35.312v1.172zM12.78 17.952l-1.066-1.066 1.657-1.657 1.066 1.066a1.17 1.17 0 0 0 1.424.181c.659-.388 1.362-.681 2.089-.869a1.17 1.17 0 0 0 .878-1.134V12.97h2.344v1.503a1.17 1.17 0 0 0 .878 1.134 8.13 8.13 0 0 1 2.089.87 1.17 1.17 0 0 0 1.424-.181l1.066-1.066 1.657 1.657-1.066 1.066a1.17 1.17 0 0 0-.181 1.424 8.09 8.09 0 0 1 .869 2.09 1.17 1.17 0 0 0 1.134.878h1.503v2.344h-4.806a5.88 5.88 0 0 0 .118-1.172A5.87 5.87 0 0 0 20 17.656a5.87 5.87 0 0 0-5.859 5.859 5.88 5.88 0 0 0 .118 1.172H9.453v-2.344h1.503a1.17 1.17 0 0 0 1.135-.878c.188-.728.481-1.431.869-2.09a1.17 1.17 0 0 0-.181-1.424zm10.736 5.563a3.53 3.53 0 0 1-.201 1.172h-6.628a3.53 3.53 0 0 1-.201-1.172A3.52 3.52 0 0 1 20 20a3.52 3.52 0 0 1 3.516 3.516zm14.141 1.172h-4.766v-3.516A1.17 1.17 0 0 0 31.719 20h-1.81a10.5 10.5 0 0 0-.418-1.003l1.282-1.282a1.17 1.17 0 0 0 0-1.657l-3.314-3.315a1.17 1.17 0 0 0-1.657 0l-1.282 1.282c-.328-.157-.663-.296-1.003-.418v-1.811a1.17 1.17 0 0 0-1.172-1.172h-4.688a1.17 1.17 0 0 0-1.172 1.172v1.811a10.3 10.3 0 0 0-1.003.418L14.2 12.743a1.17 1.17 0 0 0-1.657 0l-3.314 3.315a1.17 1.17 0 0 0 0 1.657l1.281 1.282A10.46 10.46 0 0 0 10.092 20H8.281a1.17 1.17 0 0 0-1.172 1.172v3.516H2.344V4.766c0-.646.526-1.172 1.172-1.172h32.969c.646 0 1.172.526 1.172 1.172v19.922zM31.719 5.938a3.52 3.52 0 0 0-3.516 3.516 3.52 3.52 0 0 0 3.516 3.516 3.52 3.52 0 0 0 3.516-3.516 3.52 3.52 0 0 0-3.516-3.516zm0 4.688c-.646 0-1.172-.526-1.172-1.172s.526-1.172 1.172-1.172 1.172.526 1.172 1.172-.526 1.172-1.172 1.172z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" fill="#fff"><path d="M36.484 1.25H3.516A3.52 3.52 0 0 0 0 4.766v23.437a3.52 3.52 0 0 0 3.516 3.516h10.171l-1.562 4.687H8.281a1.172 1.172 0 1 0 0 2.344h23.438a1.172 1.172 0 1 0 0-2.344h-3.843l-1.562-4.687h10.171A3.52 3.52 0 0 0 40 28.203V4.766a3.52 3.52 0 0 0-3.516-3.516zm-21.89 35.156l1.563-4.687h7.686l1.563 4.687H14.595zm23.062-8.203c0 .646-.526 1.172-1.172 1.172H3.516c-.646 0-1.172-.526-1.172-1.172v-1.172h35.312v1.172zM12.78 17.952l-1.066-1.066 1.657-1.657 1.066 1.066a1.17 1.17 0 0 0 1.424.181c.659-.388 1.362-.681 2.089-.869a1.17 1.17 0 0 0 .878-1.134V12.97h2.344v1.503a1.17 1.17 0 0 0 .878 1.134 8.13 8.13 0 0 1 2.089.87 1.17 1.17 0 0 0 1.424-.181l1.066-1.066 1.657 1.657-1.066 1.066a1.17 1.17 0 0 0-.181 1.424 8.09 8.09 0 0 1 .869 2.09 1.17 1.17 0 0 0 1.134.878h1.503v2.344h-4.806a5.88 5.88 0 0 0 .118-1.172A5.87 5.87 0 0 0 20 17.656a5.87 5.87 0 0 0-5.859 5.859 5.88 5.88 0 0 0 .118 1.172H9.453v-2.344h1.503a1.17 1.17 0 0 0 1.135-.878c.188-.728.481-1.431.869-2.09a1.17 1.17 0 0 0-.181-1.424zm10.736 5.563a3.53 3.53 0 0 1-.201 1.172h-6.628a3.53 3.53 0 0 1-.201-1.172A3.52 3.52 0 0 1 20 20a3.52 3.52 0 0 1 3.516 3.516zm14.141 1.172h-4.766v-3.516A1.17 1.17 0 0 0 31.719 20h-1.81a10.5 10.5 0 0 0-.418-1.003l1.282-1.282a1.17 1.17 0 0 0 0-1.657l-3.314-3.315a1.17 1.17 0 0 0-1.657 0l-1.282 1.282c-.328-.157-.663-.296-1.003-.418v-1.811a1.17 1.17 0 0 0-1.172-1.172h-4.688a1.17 1.17 0 0 0-1.172 1.172v1.811a10.3 10.3 0 0 0-1.003.418L14.2 12.743a1.17 1.17 0 0 0-1.657 0l-3.314 3.315a1.17 1.17 0 0 0 0 1.657l1.281 1.282A10.46 10.46 0 0 0 10.092 20H8.281a1.17 1.17 0 0 0-1.172 1.172v3.516H2.344V4.766c0-.646.526-1.172 1.172-1.172h32.969c.646 0 1.172.526 1.172 1.172v19.922zM31.719 5.938a3.52 3.52 0 0 0-3.516 3.516 3.52 3.52 0 0 0 3.516 3.516 3.52 3.52 0 0 0 3.516-3.516 3.52 3.52 0 0 0-3.516-3.516zm0 4.688c-.646 0-1.172-.526-1.172-1.172s.526-1.172 1.172-1.172 1.172.526 1.172 1.172-.526 1.172-1.172 1.172z"/></svg>
               </div>
               <h2>Maßgeschneiderte Websites</h2>
             </div>
             <div class="card-subtitle">
-              Der Web Wandler erstellt individuelle Webseiten, die genau auf Ihre Bedürfnisse abgestimmt sind. Von modernem Design bis hin zu exzellenter Funktionalität – wir bringen Ihre Vision online.
+              Der WebWandler erstellt individuelle Webseiten, die genau auf Ihre Bedürfnisse abgestimmt sind. Von modernem Design bis hin zu exzellenter Funktionalität – wir bringen Ihre Vision online.
             </div>
           </div>
           <div class="service-card">
             <div class="card-title">
               <div class="service-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" width="40" height="40" fill="none"><g clip-path="url(#A)" fill="#fff"><path d="M29.699 18.609a5.87 5.87 0 0 0 0-8.286c-2.29-2.29-5.996-2.29-8.286 0a5.87 5.87 0 0 0 0 8.286c2.29 2.29 5.996 2.29 8.286 0zM23.07 11.98c1.374-1.374 3.598-1.374 4.972 0a3.52 3.52 0 0 1 0 4.972c-1.374 1.374-3.598 1.374-4.972 0a3.52 3.52 0 0 1 0-4.972zM.054 38.476a1.17 1.17 0 0 0 1.467 1.471c1.017-.318 10.012-3.172 12.434-5.594.649-.649 1.177-1.382 1.567-2.167a1.15 1.15 0 0 0 .602-.124l2.839-1.427.43 5.754c.002.875.925 1.433 1.699 1.044.292-.194 3.324-1.302 5.461-4.766 1.186-1.923 1.805-4.134 1.805-6.394v-.805c1.764-1.141 3.406-2.36 4.752-3.66 5.823-5.621 7.137-12.54 6.856-20.64-.021-.615-.515-1.109-1.131-1.131-8.098-.281-15.018 1.033-20.64 6.856-1.274 1.32-2.471 2.868-3.593 4.593h-.975c-4.561 0-8.803 2.607-10.879 6.762l-.281.56a1.17 1.17 0 0 0 1.044 1.699c.665.002-.361-.045 5.868.512l-1.437 2.86a1.17 1.17 0 0 0-.124.633c-.777.389-1.504.913-2.147 1.557C3.247 28.487.373 37.461.054 38.476zm15.765-8.889l-5.406-5.406 1.106-2.208 6.508 6.509-2.208 1.106zm5.798 4.883l-.395-4.977A102.77 102.77 0 0 0 26 26.911c-.197 3.096-1.816 5.873-4.383 7.559zM37.65 2.35c.039 2.56-.109 4.825-.466 6.863a7.51 7.51 0 0 1-6.397-6.397c2.037-.357 4.303-.505 6.862-.466zM19.88 8.519c2.455-2.543 5.194-4.229 8.616-5.187a9.84 9.84 0 0 0 2.771 5.401 9.84 9.84 0 0 0 5.401 2.771c-.959 3.422-2.644 6.161-5.187 8.616-2.837 2.74-7.2 5.175-11.251 7.249l-7.598-7.599c2.074-4.051 4.509-8.413 7.249-11.251zM5.415 18.297c1.715-2.623 4.567-4.26 7.738-4.409-.939 1.61-1.819 3.271-2.641 4.879l-5.096-.47zm3.905 8.106l1.32 1.32-2.486 2.486a1.172 1.172 0 1 0 1.657 1.657l2.486-2.486 1.32 1.32c-.281.723-.729 1.404-1.32 1.994-1.343 1.343-6.052 3.17-9.274 4.286 1.122-3.215 2.957-7.913 4.302-9.257a5.81 5.81 0 0 1 1.994-1.32zm10.415-6.138a1.172 1.172 0 1 0-1.657 1.657 1.172 1.172 0 1 0 1.657-1.657z"/></g><defs><clipPath id="A"><path fill="#fff" d="M0 0h40v40H0z"/></clipPath></defs></svg>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" fill="none"><g clip-path="url(#A)" fill="#fff"><path d="M29.699 18.609a5.87 5.87 0 0 0 0-8.286c-2.29-2.29-5.996-2.29-8.286 0a5.87 5.87 0 0 0 0 8.286c2.29 2.29 5.996 2.29 8.286 0zM23.07 11.98c1.374-1.374 3.598-1.374 4.972 0a3.52 3.52 0 0 1 0 4.972c-1.374 1.374-3.598 1.374-4.972 0a3.52 3.52 0 0 1 0-4.972zM.054 38.476a1.17 1.17 0 0 0 1.467 1.471c1.017-.318 10.012-3.172 12.434-5.594.649-.649 1.177-1.382 1.567-2.167a1.15 1.15 0 0 0 .602-.124l2.839-1.427.43 5.754c.002.875.925 1.433 1.699 1.044.292-.194 3.324-1.302 5.461-4.766 1.186-1.923 1.805-4.134 1.805-6.394v-.805c1.764-1.141 3.406-2.36 4.752-3.66 5.823-5.621 7.137-12.54 6.856-20.64-.021-.615-.515-1.109-1.131-1.131-8.098-.281-15.018 1.033-20.64 6.856-1.274 1.32-2.471 2.868-3.593 4.593h-.975c-4.561 0-8.803 2.607-10.879 6.762l-.281.56a1.17 1.17 0 0 0 1.044 1.699c.665.002-.361-.045 5.868.512l-1.437 2.86a1.17 1.17 0 0 0-.124.633c-.777.389-1.504.913-2.147 1.557C3.247 28.487.373 37.461.054 38.476zm15.765-8.889l-5.406-5.406 1.106-2.208 6.508 6.509-2.208 1.106zm5.798 4.883l-.395-4.977A102.77 102.77 0 0 0 26 26.911c-.197 3.096-1.816 5.873-4.383 7.559zM37.65 2.35c.039 2.56-.109 4.825-.466 6.863a7.51 7.51 0 0 1-6.397-6.397c2.037-.357 4.303-.505 6.862-.466zM19.88 8.519c2.455-2.543 5.194-4.229 8.616-5.187a9.84 9.84 0 0 0 2.771 5.401 9.84 9.84 0 0 0 5.401 2.771c-.959 3.422-2.644 6.161-5.187 8.616-2.837 2.74-7.2 5.175-11.251 7.249l-7.598-7.599c2.074-4.051 4.509-8.413 7.249-11.251zM5.415 18.297c1.715-2.623 4.567-4.26 7.738-4.409-.939 1.61-1.819 3.271-2.641 4.879l-5.096-.47zm3.905 8.106l1.32 1.32-2.486 2.486a1.172 1.172 0 1 0 1.657 1.657l2.486-2.486 1.32 1.32c-.281.723-.729 1.404-1.32 1.994-1.343 1.343-6.052 3.17-9.274 4.286 1.122-3.215 2.957-7.913 4.302-9.257a5.81 5.81 0 0 1 1.994-1.32zm10.415-6.138a1.172 1.172 0 1 0-1.657 1.657 1.172 1.172 0 1 0 1.657-1.657z"/></g><defs><clipPath id="A"><path fill="#fff" d="M0 0h40v40H0z"/></clipPath></defs></svg>
               </div>
               <h2>IT-Infrastruktur</h2>
             </div>
             <div class="card-subtitle">
-              Der Web Wandler bietet individuelle Lösungen für IT-Infrastrukturen. Von Planung über Implementierung bis zur Optimierung – wir schaffen robuste Systeme.
+              Der WebWandler bietet individuelle Lösungen für IT-Infrastrukturen. Von Planung über Implementierung bis zur Optimierung – wir schaffen robuste Systeme.
             </div>
           </div>
 
@@ -164,23 +145,23 @@
           <div class="service-card">
             <div class="card-title">
               <div class="service-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" width="40" height="40" fill="#fff"><path d="M38.828 27.031h-1.172V7.109a3.52 3.52 0 0 0-3.516-3.516H5.859c-1.938 0-3.508 1.577-3.508 3.516v19.922H1.18A1.18 1.18 0 0 0 0 28.203v2.344a5.87 5.87 0 0 0 5.859 5.859H34.14A5.87 5.87 0 0 0 40 30.547v-2.344a1.17 1.17 0 0 0-1.172-1.172zM4.688 7.109c0-.646.526-1.172 1.172-1.172h28.281a1.18 1.18 0 0 1 1.18 1.172v19.922H27.11c-.647 0-1.164.525-1.164 1.172v.002 1.17H14.063v-1.172a1.17 1.17 0 0 0-1.172-1.172H4.688V7.109zm32.977 23.438a3.53 3.53 0 0 1-3.524 3.516H5.859a3.52 3.52 0 0 1-3.516-3.516v-1.172h9.383v1.172c0 .647.517 1.172 1.164 1.172h14.219a1.17 1.17 0 0 0 1.172-1.172v-1.172h9.383v1.172zm-4.696-7.031a1.17 1.17 0 0 0-1.172-1.172H11.049l6.604-6.549 3.862 3.862a1.17 1.17 0 0 0 1.651.006l4.765-4.697c.46.222.977.347 1.522.347a3.52 3.52 0 0 0 3.516-3.516 3.52 3.52 0 0 0-3.516-3.516 3.52 3.52 0 0 0-3.516 3.516c0 .539.122 1.051.34 1.508l-3.928 3.872-3.865-3.865a1.17 1.17 0 0 0-1.654-.004l-7.456 7.394V9.453a1.172 1.172 0 0 0-2.344 0v14.062c0 .653.534 1.172 1.172 1.172h.001 23.593a1.17 1.17 0 0 0 1.172-1.172zm-3.516-12.891c.646 0 1.172.526 1.172 1.172s-.526 1.172-1.172 1.172-1.172-.526-1.172-1.172.526-1.172 1.172-1.172z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" fill="#fff"><path d="M38.828 27.031h-1.172V7.109a3.52 3.52 0 0 0-3.516-3.516H5.859c-1.938 0-3.508 1.577-3.508 3.516v19.922H1.18A1.18 1.18 0 0 0 0 28.203v2.344a5.87 5.87 0 0 0 5.859 5.859H34.14A5.87 5.87 0 0 0 40 30.547v-2.344a1.17 1.17 0 0 0-1.172-1.172zM4.688 7.109c0-.646.526-1.172 1.172-1.172h28.281a1.18 1.18 0 0 1 1.18 1.172v19.922H27.11c-.647 0-1.164.525-1.164 1.172v.002 1.17H14.063v-1.172a1.17 1.17 0 0 0-1.172-1.172H4.688V7.109zm32.977 23.438a3.53 3.53 0 0 1-3.524 3.516H5.859a3.52 3.52 0 0 1-3.516-3.516v-1.172h9.383v1.172c0 .647.517 1.172 1.164 1.172h14.219a1.17 1.17 0 0 0 1.172-1.172v-1.172h9.383v1.172zm-4.696-7.031a1.17 1.17 0 0 0-1.172-1.172H11.049l6.604-6.549 3.862 3.862a1.17 1.17 0 0 0 1.651.006l4.765-4.697c.46.222.977.347 1.522.347a3.52 3.52 0 0 0 3.516-3.516 3.52 3.52 0 0 0-3.516-3.516 3.52 3.52 0 0 0-3.516 3.516c0 .539.122 1.051.34 1.508l-3.928 3.872-3.865-3.865a1.17 1.17 0 0 0-1.654-.004l-7.456 7.394V9.453a1.172 1.172 0 0 0-2.344 0v14.062c0 .653.534 1.172 1.172 1.172h.001 23.593a1.17 1.17 0 0 0 1.172-1.172zm-3.516-12.891c.646 0 1.172.526 1.172 1.172s-.526 1.172-1.172 1.172-1.172-.526-1.172-1.172.526-1.172 1.172-1.172z"/></svg>
               </div>
               <h2>Effiziente Geschäftsprozesse</h2>
             </div>
             <div class="card-subtitle">
-              Der Web Wandler optimiert Ihre Geschäftsprozesse individuell. Mit datenbasierten Analysen und smarten Strategien steigern wir Effizienz, senken Kosten und fördern nachhaltiges Wachstum.
+              Der WebWandler optimiert Ihre Geschäftsprozesse individuell. Mit datenbasierten Analysen und smarten Strategien steigern wir Effizienz, senken Kosten und fördern nachhaltiges Wachstum.
             </div>
           </div>
           <div class="service-card">
             <div class="card-title">
               <div class="service-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" width="40" height="40" fill="#fff"><path d="M20 9.531A12.91 12.91 0 0 0 7.109 22.422 12.91 12.91 0 0 0 20 35.313c7.127 0 12.891-5.799 12.891-12.891A12.91 12.91 0 0 0 20 9.531zm9.375 14.062h1.106a10.5 10.5 0 0 1-2.245 5.408l-.779-.779c-.458-.457-1.2-.457-1.657 0a1.17 1.17 0 0 0 0 1.657l.779.779c-1.517 1.215-3.376 2.019-5.407 2.245v-1.106a1.172 1.172 0 1 0-2.344 0v1.106c-2.031-.226-3.89-1.03-5.407-2.245l.779-.779a1.17 1.17 0 0 0 0-1.657c-.457-.457-1.2-.457-1.657 0l-.779.779a10.5 10.5 0 0 1-2.245-5.408h1.106a1.172 1.172 0 1 0 0-2.344H9.519c.226-2.031 1.03-3.89 2.245-5.407l.779.779a1.172 1.172 0 1 0 1.657-1.657l-.779-.779c1.517-1.215 3.376-2.019 5.407-2.245v1.106a1.172 1.172 0 1 0 2.344 0V11.94c2.031.226 3.89 1.03 5.407 2.245l-.779.779a1.17 1.17 0 0 0 0 1.657c.457.457 1.2.457 1.657 0l.779-.779a10.5 10.5 0 0 1 2.245 5.408h-1.106a1.172 1.172 0 1 0 0 2.343zm-8.203-1.657v-4.202a1.172 1.172 0 1 0-2.344 0v4.688a1.17 1.17 0 0 0 .343.828l2.344 2.344a1.172 1.172 0 1 0 1.657-1.657l-2-2.001zM34.891 9.188a1.172 1.172 0 1 0-1.657-1.657l-1.661 1.66c-2.315-2.031-5.079-3.396-8.058-3.997V1.172A1.17 1.17 0 0 0 22.344 0h-4.688a1.17 1.17 0 0 0-1.172 1.172v4.022a17.41 17.41 0 0 0-7.968 3.918L6.724 7.49a1.172 1.172 0 1 0-1.572 1.738l1.695 1.533c-2.86 3.218-4.425 7.318-4.425 11.66a17.578 17.578 0 1 0 35.156 0c0-4.302-1.536-8.368-4.348-11.573l1.661-1.661zM18.828 2.344h2.344v2.539A18.25 18.25 0 0 0 20 4.844a18.25 18.25 0 0 0-1.172.039V2.344zm16.406 20.078c0 8.4-6.834 15.234-15.234 15.234S4.766 30.822 4.766 22.422 11.6 7.188 20 7.188s15.234 6.834 15.234 15.234z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" fill="#fff"><path d="M20 9.531A12.91 12.91 0 0 0 7.109 22.422 12.91 12.91 0 0 0 20 35.313c7.127 0 12.891-5.799 12.891-12.891A12.91 12.91 0 0 0 20 9.531zm9.375 14.062h1.106a10.5 10.5 0 0 1-2.245 5.408l-.779-.779c-.458-.457-1.2-.457-1.657 0a1.17 1.17 0 0 0 0 1.657l.779.779c-1.517 1.215-3.376 2.019-5.407 2.245v-1.106a1.172 1.172 0 1 0-2.344 0v1.106c-2.031-.226-3.89-1.03-5.407-2.245l.779-.779a1.17 1.17 0 0 0 0-1.657c-.457-.457-1.2-.457-1.657 0l-.779.779a10.5 10.5 0 0 1-2.245-5.408h1.106a1.172 1.172 0 1 0 0-2.344H9.519c.226-2.031 1.03-3.89 2.245-5.407l.779.779a1.172 1.172 0 1 0 1.657-1.657l-.779-.779c1.517-1.215 3.376-2.019 5.407-2.245v1.106a1.172 1.172 0 1 0 2.344 0V11.94c2.031.226 3.89 1.03 5.407 2.245l-.779.779a1.17 1.17 0 0 0 0 1.657c.457.457 1.2.457 1.657 0l.779-.779a10.5 10.5 0 0 1 2.245 5.408h-1.106a1.172 1.172 0 1 0 0 2.343zm-8.203-1.657v-4.202a1.172 1.172 0 1 0-2.344 0v4.688a1.17 1.17 0 0 0 .343.828l2.344 2.344a1.172 1.172 0 1 0 1.657-1.657l-2-2.001zM34.891 9.188a1.172 1.172 0 1 0-1.657-1.657l-1.661 1.66c-2.315-2.031-5.079-3.396-8.058-3.997V1.172A1.17 1.17 0 0 0 22.344 0h-4.688a1.17 1.17 0 0 0-1.172 1.172v4.022a17.41 17.41 0 0 0-7.968 3.918L6.724 7.49a1.172 1.172 0 1 0-1.572 1.738l1.695 1.533c-2.86 3.218-4.425 7.318-4.425 11.66a17.578 17.578 0 1 0 35.156 0c0-4.302-1.536-8.368-4.348-11.573l1.661-1.661zM18.828 2.344h2.344v2.539A18.25 18.25 0 0 0 20 4.844a18.25 18.25 0 0 0-1.172.039V2.344zm16.406 20.078c0 8.4-6.834 15.234-15.234 15.234S4.766 30.822 4.766 22.422 11.6 7.188 20 7.188s15.234 6.834 15.234 15.234z"/></svg>
               </div>
               <h2>Digitalisierung</h2>
             </div>
             <div class="card-subtitle">
-              Der Web Wandler begleitet Sie bei der digitalen Transformation. Wir entwickeln individuelle Strategien, optimieren Prozesse und implementieren moderne Technologien für Ihr Unternehmen.
+              Der WebWandler begleitet Sie bei der digitalen Transformation. Wir entwickeln individuelle Strategien, optimieren Prozesse und implementieren moderne Technologien für Ihr Unternehmen.
             </div>
           </div>
 
@@ -205,22 +186,22 @@
         <div class="team-img-container">
           <div class="team-img-item">
             <img src="img/coworker-1.jpg" alt="" class="team-item-img">
-            <p class="team-item-text">Delmed Helvadi</p>
+            <p class="team-item-text">Andrei Piatrouski</p>
             <p class="team-item-subtitle">CEO</p>
           </div>
           <div class="team-img-item">
             <img src="img/coworker-2.jpg" alt="" class="team-item-img">
-            <p  class="team-item-text">Jorg Leula</p>
+            <p  class="team-item-text">Noam Shani</p>
             <p class="team-item-subtitle">CMO</p>
           </div>
           <div class="team-img-item">
             <img src="img/coworker-1.jpg" alt="" class="team-item-img">
-            <p class="team-item-text">Nikolai Vladimirov</p>
+            <p class="team-item-text">Alessio Steinike</p>
             <p class="team-item-subtitle">CPO</p>
           </div>
           <div class="team-img-item">
             <img src="img/coworker-2.jpg" alt="" class="team-item-img">
-            <p class="team-item-text">Helmut Brandt</p>
+            <p class="team-item-text">Hannes Gantzkow</p>
             <p class="team-item-subtitle">CTO</p>
           </div>
         </div>
@@ -232,7 +213,7 @@
         <span class="oval"></span>
         <h2 class="section-title-text">Wie wir arbeiten?</h2>
         <h3 class="section-title-subtext steps-title-subtext">
-          Bei Web Wandler setzen wir auf eine strukturierte und transparente Arbeitsweise.
+          Bei WebWandler setzen wir auf eine strukturierte und transparente Arbeitsweise.
         </h3>
       </div>
       <div class="steps-items-container">
@@ -292,11 +273,33 @@
 
     </div>
   </section>
+  <section class="case-study">
+    <div class="container case-study-container">
+      <div class="case-title-container section-title-container">
+        <span class="oval"></span>
+        <h2 class="section-title-text">Eine Fallstudie</h2>
+        <h3 class="section-title-subtext steps-title-subtext">
+          Unsere letzte Webseite für Novostock, ein Start-up,das die Effizienz im Gesundheitswesen zu revolutionieren vorhat. Kreativ. Identitätstark. Legendär.
+        </h3>
+      </div>
+      <div class="case-study-content">
+         <div class="case-study-img-container">
+          <img src="img/coworker-1.jpg" alt="" class="case-study-img">
+          <div class="overlay">
+            <h5 class="case-study-overlay-title">Eine maßgeschneiderte Website für Novostock</h5>
+            <a href="#hiersolleinlinkzudemszenariosein" class="btn ready-btn home-title-waitlist">Webseite ansehen </a>
+          </div>
+         </div>
+      </div>
+
+
+    </div>
+  </section>
   <section class="ready">
     <p class="ready-subtitle">Bist du gespannt?</p>
-    <p class="ready-title">
+    <h5 class="ready-title">
       Dann gestalte die Zukunft mit uns zusammen
-    </p>
+    </h5>
     <a href="https://tally.so/r/waZ8lB" class="btn ready-btn home-title-waitlist">Mit uns arbeiten </a>
 
   </section>
@@ -308,7 +311,7 @@
       <div class="footer-title-container">
         <h2 class="footer-title">WebWandler</h2>
         <p class="footer-subtitle">
-          Haben Sie Fragen, wünschen Sie Beratung oder möchten Sie Ihr nächstes Projekt starten? Der Web Wandler ist Ihr zuverlässiger Partner. Schreiben Sie uns, und wir entwickeln gemeinsam die optimale Lösung für Ihre Ziele!
+          Haben Sie Fragen, wünschen Sie Beratung oder möchten Sie Ihr nächstes Projekt starten? Der WebWandler ist Ihr zuverlässiger Partner. Schreiben Sie uns, und wir entwickeln gemeinsam die optimale Lösung für Ihre Ziele!
         </p>
         <a href="ceo.html#contact" class="btn home-title-waitlist">Kontaktieren Sie uns</a>
       </div>

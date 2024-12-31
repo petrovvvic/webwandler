@@ -9,10 +9,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
+
 
 body{
   margin: 0px;
+  overflow-x: hidden;
+  position: relative
 }
 
 *{
@@ -44,6 +48,8 @@ ul,li{
   flex-direction: row;
 
 }
+
+
 
 .logo-text{
   margin-top: 7px;
@@ -83,7 +89,7 @@ ul,li{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-left: 135px;
+  padding-left: 165px;
 }
 
 .nav-link{
@@ -356,7 +362,7 @@ color:white;}
   width: 50%;
   display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer-social-link{
@@ -448,6 +454,10 @@ color:white;}
   height: 100px;
   width: 100px;
 }
+
+.footer-social-link{
+  display: none;
+}
 .step-number-inner{
   background: #fff;
   border-radius: 50px;
@@ -475,8 +485,8 @@ color:white;}
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .step-number{
@@ -549,6 +559,7 @@ color:white;}
 }
 
 .meet-our-team{
+  position: relative;
 }
 
 .meet-our-team-title-text{
@@ -649,7 +660,57 @@ color:white;}
   font-weight: 600;
   margin-bottom: 10px;
 }
+.case-study{
+  padding-bottom: 100px;
+}
+.case-study-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+}
+
+.case-study-img-container{
+  position: relative;
+  height: 500px;
+}
+
+.overlay {
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.case-study-overlay-title{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.case-study-img-container:hover .overlay {
+  opacity: 1;
+}
 @media (max-width: 768px) {
+  .case-study-img-container{
+    position: relative;
+    height: 400px;
+  }
+  .case-study-overlay-title{
+    font-size: 20px;
+  }
   .meet-our-team-img-2{
     display: none;
   }
@@ -705,6 +766,7 @@ color:white;}
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    z-index: 999999999;
     margin: 0;
     padding: 0;
     
