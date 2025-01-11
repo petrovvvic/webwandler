@@ -1093,6 +1093,9 @@ color:white;}
   .home-lottie{
     width: 320px;
   }
+  .home-image-container{
+    margin-left: -50px;
+  }
   .home-container{
     flex-direction: column;
     text-align: center;
